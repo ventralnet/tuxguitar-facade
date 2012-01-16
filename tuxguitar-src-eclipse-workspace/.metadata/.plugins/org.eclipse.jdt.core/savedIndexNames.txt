@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+/home/matt/development/tuxguitar-facade/tuxguitar-src-eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+781021295.index
+629999346.index
+3553130318.index
+3170977393.index
+3294475474.index
+3626092831.index
+2314363546.index
