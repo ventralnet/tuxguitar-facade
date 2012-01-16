@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="share"/>
+	<classpathentry kind="lib" path="lib/swt-partial.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry exported="true" kind="lib" path="share/plugins/tuxguitar-gtp.jar"/>
+	<classpathentry exported="true" kind="lib" path="share/plugins/tuxguitar-ptb.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
