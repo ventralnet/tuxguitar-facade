@@ -1,0 +1,15 @@
+package com.kirkley.guitar.tab;
+
+import java.io.File;
+
+public class GuitarTabUtils {
+
+	public static TabMetaData readTabMetaData(File tab) {
+		
+	}
+	
+	public static TabMetaData readTabMetaData(InputStream stream) {
+		
+	}
+	
+}

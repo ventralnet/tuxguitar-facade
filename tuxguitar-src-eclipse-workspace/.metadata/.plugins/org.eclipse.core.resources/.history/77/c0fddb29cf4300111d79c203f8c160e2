@@ -1,0 +1,26 @@
+package com.kirkley.guitar.tab;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+public class GuitarTabUtils {
+
+	static {
+		/*
+		 * Init all the file formats
+		 */
+		
+	}
+	
+	public static TabMetaData readTabMetaData(File tab) throws FileNotFoundException {
+		return readTabMetaData(new FileInputStream(tab));
+	}
+	
+	public static TabMetaData readTabMetaData(InputStream stream) {
+		return null;
+		
+	}
+	
+}
