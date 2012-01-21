@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GP5InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GP3InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GP4InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GP2InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GP1InputStream"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.gtp.GTPSettingsUtil"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.ptb.PTInputStream"/>
+</qualifiedTypeNameHistroy>
