@@ -1,0 +1,55 @@
+package com.kirkley.guitar.tab;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import org.herac.tuxguitar.io.base.TGFileFormatManager;
+import org.herac.tuxguitar.io.base.TGInputStreamBase;
+import org.herac.tuxguitar.io.gtp.GP1InputStream;
+import org.herac.tuxguitar.io.gtp.GP2InputStream;
+import org.herac.tuxguitar.io.gtp.GP3InputStream;
+import org.herac.tuxguitar.io.gtp.GP4InputStream;
+import org.herac.tuxguitar.io.gtp.GP5InputStream;
+import org.herac.tuxguitar.io.gtp.GTPSettingsUtil;
+import org.herac.tuxguitar.io.ptb.PTInputStream;
+
+public class GuitarTabUtils {
+
+
+	
+    private static TGFileFormatManager fileFormatManager = TGFileFormatManager.instance();
+	
+	static {
+		/*
+		 * Init all the file formats
+		 */
+		GP1InputStream gp1Stream = new GP1InputStream(GTPSettingsUtil.instance().getSettings());
+		GP2InputStream gp2Stream = new GP2InputStream(GTPSettingsUtil.instance().getSettings());
+		GP3InputStream gp3Stream = new GP3InputStream(GTPSettingsUtil.instance().getSettings());
+		GP4InputStream gp4Stream = new GP4InputStream(GTPSettingsUtil.instance().getSettings());
+		GP5InputStream gp5Stream = new GP5InputStream(GTPSettingsUtil.instance().getSettings());
+		
+		PTInputStream ptInputStream = new PTInputStream();
+		
+		fileFormatManager.addInputStream(gp1Stream);
+		fileFormatManager.addInputStream(gp2Stream);
+		fileFormatManager.addInputStream(gp3Stream);
+		fileFormatManager.addInputStream(gp4Stream);
+		fileFormatManager.addInputStream(gp5Stream);
+		fileFormatManager.addInputStream(ptInputStream);
+		
+	}
+	
+	public static TabMetaData readTabMetaData(File tab) throws FileNotFoundException {
+		return readTabMetaData(new FileInputStream(tab));
+	}
+	
+	public static TabMetaData readTabMetaData(InputStream stream) {
+		return null;
+		
+	}
+	
+}
