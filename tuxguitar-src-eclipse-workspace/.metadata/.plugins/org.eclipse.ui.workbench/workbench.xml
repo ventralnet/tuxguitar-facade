@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="820" maximized="true" width="1555" x="202" y="82">
+<window height="821" width="1551" x="223" y="90">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -45,17 +45,25 @@
 <part id="13"/>
 <part id="14"/>
 <part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuitarTabUtils.java" partName="GuitarTabUtils.java" path="/home/matt/development/tuxguitar-facade/tuxguitar-src-eclipse-workspace/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTabUtils.java" title="GuitarTabUtils.java" tooltip="guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTabUtils.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTabUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1751" selectionTopPixel="251"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2193" selectionTopPixel="383"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGFileFormatManager.java" partName="TGFileFormatManager.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/io/base/TGFileFormatManager.java" title="TGFileFormatManager.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/io/base/TGFileFormatManager.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGFileFormatManager.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="323"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="915" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GTPPluginList.java" partName="GTPPluginList.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPPluginList.java" title="GTPPluginList.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPPluginList.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPPluginList.java"/>
@@ -67,7 +75,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSong.java" partName="TGSong.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java" title="TGSong.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="512" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="512" selectionTopPixel="1542"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGPluginList.java" partName="TGPluginList.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java" title="TGPluginList.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java"/>
@@ -83,7 +91,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GP4InputStream.java" partName="GP4InputStream.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java" title="GP4InputStream.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1617" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2309" selectionTopPixel="196"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GTPInputStream.java" partName="GTPInputStream.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java" title="GTPInputStream.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java"/>
@@ -91,11 +99,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GTPFileFormat.java" partName="GTPFileFormat.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPFileFormat.java" title="GTPFileFormat.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPFileFormat.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPFileFormat.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="102" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="537" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGInputStreamBase.java" partName="TGInputStreamBase.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/io/base/TGInputStreamBase.java" title="TGInputStreamBase.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/io/base/TGInputStreamBase.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGInputStreamBase.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="442" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="387" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PTInputStream.java" partName="PTInputStream.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-ptb/src/org/herac/tuxguitar/io/ptb/PTInputStream.java" title="PTInputStream.java" tooltip="TuxGuitar-ptb/src/org/herac/tuxguitar/io/ptb/PTInputStream.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-ptb/src/org/herac/tuxguitar/io/ptb/PTInputStream.java"/>
@@ -109,27 +117,71 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-gtp/build.xml"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1258" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.ant.ui.internal.editor.AntEditor" name="build.xml" partName="build.xml" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-ptb/build.xml" title="build.xml" tooltip="TuxGuitar-ptb/build.xml" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.ant.ui.internal.editor.AntEditor" name="build.xml" partName="build.xml" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-ptb/build.xml" title="build.xml" tooltip="TuxGuitar-ptb/build.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-ptb/build.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1103" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="544" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuitarTab.java" partName="GuitarTab.java" path="/home/matt/development/tuxguitar-facade/tuxguitar-src-eclipse-workspace/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java" title="GuitarTab.java" tooltip="guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="174" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSongLoader.java" partName="TGSongLoader.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java" title="TGSongLoader.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1096" selectionTopPixel="51"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGFactory.java" partName="TGFactory.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java" title="TGFactory.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1585" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TuxGuitar.java" partName="TuxGuitar.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java" title="TuxGuitar.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="181" selectionOffset="14127" selectionTopPixel="6375"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGFactoryImpl.java" partName="TGFactoryImpl.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java" title="TGFactoryImpl.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="593" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSongManager.java" partName="TGSongManager.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar/src/org/herac/tuxguitar/song/managers/TGSongManager.java" title="TGSongManager.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/managers/TGSongManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar/src/org/herac/tuxguitar/song/managers/TGSongManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="1317" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuitarTabUtilsTest.java" partName="GuitarTabUtilsTest.java" path="/home/matt/development/tuxguitar-facade/tuxguitar-src-eclipse-workspace/guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java" title="GuitarTabUtilsTest.java" tooltip="guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ASCIIOutputStream.java" partName="ASCIIOutputStream.java" path="/home/matt/development/tuxguitar-facade/tuxguitar/TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java" title="ASCIIOutputStream.java" tooltip="TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="284" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings (100 of 143 items)"/>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (100 of 1144 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="392" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="572"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -138,9 +190,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="Aggregate for window 1326720586387">
@@ -171,20 +220,13 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -235,10 +277,12 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -247,12 +291,13 @@
 <folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -265,12 +310,12 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.6357039" ratioLeft="438" ratioRight="251" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -278,6 +323,7 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -332,60 +378,44 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495146" ratioLeft="1158" ratioRight="387" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495146" ratioLeft="1158" ratioRight="387" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="519" ratioRight="173" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="519" ratioRight="173" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44894028" ratioLeft="233" ratioRight="286" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495146" ratioLeft="1158" ratioRight="387" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495146" ratioLeft="1158" ratioRight="387" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49967638" ratioLeft="772" ratioRight="773" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49967638" ratioLeft="772" ratioRight="773" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -397,169 +427,169 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTabUtils.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGFileFormatManager.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPPluginList.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGInputStreamPlugin.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=TuxGuitar/share\/plugins\/tuxguitar-ptb.jar&lt;org.herac.tuxguitar.io.ptb(PTInputStreamPlugin.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPSettingsUtil.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGInputStreamBase.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-ptb/src/org/herac/tuxguitar/io/ptb/PTInputStream.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP5InputStream.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ant.ui.internal.editor.AntEditor" path="/TuxGuitar-gtp/build.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ant.ui.internal.editor.AntEditor" path="/TuxGuitar-ptb/build.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPFileFormat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGFileFormatManager.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/guitar-tab-utils/src/com/kirkley/guitar/tab/TabMetaData.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java"/>
 </editors>
-<item historyLabel="PTInputStreamPlugin.class" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="GuitarTab.java" index="0">
+<position/>
 </item>
-<item historyLabel="TGInputStreamPlugin.java" index="3">
-<position info="not_deleted" x="252" y="19"/>
+<item historyLabel="TGSong.java" index="2">
+<position info="not_deleted" x="3" y="0"/>
 </item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1748" y="0"/>
+<item historyLabel="TGSong.java" index="2">
+<position info="not_deleted" x="512" y="6"/>
 </item>
-<item historyLabel="TGInputStreamPlugin.java" index="3">
-<position info="not_deleted" x="252" y="19"/>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
 </item>
-<item historyLabel="GTPPluginList.java" index="2">
-<position info="not_deleted" x="707" y="19"/>
+<item historyLabel="TGSongLoader.java" index="3">
+<position info="not_deleted" x="694" y="4"/>
 </item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1748" y="0"/>
-</item>
-<item historyLabel="TGFileFormatManager.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TGInputStreamPlugin.java" index="3">
-<position info="not_deleted" x="252" y="19"/>
-</item>
-<item historyLabel="GTPPluginList.java" index="2">
-<position info="not_deleted" x="785" y="68"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1748" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1024" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="686" y="0"/>
-</item>
-<item historyLabel="GTPPluginList.java" index="2">
-<position info="not_deleted" x="785" y="68"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="915" y="0"/>
-</item>
-<item historyLabel="GTPSettingsUtil.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="915" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1135" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1149" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="617" y="0"/>
-</item>
-<item historyLabel="TGFileFormatManager.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="TGInputStreamPlugin.java" index="3">
-<position info="not_deleted" x="252" y="19"/>
-</item>
-<item historyLabel="GTPPluginList.java" index="2">
-<position info="not_deleted" x="980" y="0"/>
-</item>
-<item historyLabel="GP4InputStream.java" index="6">
-<position info="not_deleted" x="1620" y="0"/>
-</item>
-<item historyLabel="GTPInputStream.java" index="7">
-<position info="not_deleted" x="251" y="0"/>
-</item>
-<item historyLabel="GP4InputStream.java" index="6">
-<position info="not_deleted" x="1617" y="0"/>
-</item>
-<item historyLabel="GTPInputStream.java" index="7">
-<position info="not_deleted" x="272" y="0"/>
-</item>
-<item historyLabel="TGInputStreamBase.java" index="8">
-<position info="not_deleted" x="211" y="17"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1022" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1018" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="934" y="0"/>
-</item>
-<item historyLabel="TGInputStreamBase.java" index="8">
+<item historyLabel="TGInputStreamBase.java" index="4">
 <position info="not_deleted" x="0" y="442"/>
 </item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="934" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1539" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1579" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1619" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1659" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1491" y="0"/>
-</item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1751" y="0"/>
-</item>
-<item historyLabel="GTPPluginList.java" index="2">
-<position info="not_deleted" x="980" y="0"/>
-</item>
-<item historyLabel="GP4InputStream.java" index="6">
+<item historyLabel="GP4InputStream.java" index="5">
 <position info="not_deleted" x="1617" y="0"/>
 </item>
-<item historyLabel="GTPInputStream.java" index="7">
-<position info="not_deleted" x="916" y="0"/>
+<item historyLabel="GTPFileFormat.java" index="6">
+<position info="not_deleted" x="102" y="13"/>
 </item>
-<item historyLabel="GuitarTabUtils.java" index="0">
-<position info="not_deleted" x="1751" y="0"/>
+<item historyLabel="GTPFileFormat.java" index="6">
+<position info="not_deleted" x="540" y="10"/>
 </item>
-<item historyLabel="PTInputStream.java" index="9">
-<position info="not_deleted" x="1110" y="0"/>
+<item historyLabel="TGSong.java" index="2">
+<position info="not_deleted" x="512" y="6"/>
 </item>
-<item historyLabel="TGPluginList.java" index="10">
-<position info="not_deleted" x="514" y="0"/>
+<item historyLabel="GuitarTab.java" index="0">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="GP5InputStream.java" index="11">
-<position info="not_deleted" x="1615" y="0"/>
+<item historyLabel="TGSongLoader.java" index="3">
+<position info="not_deleted" x="1096" y="0"/>
 </item>
-<item historyLabel="GTPInputStream.java" index="7">
-<position info="not_deleted" x="603" y="0"/>
+<item historyLabel="GP4InputStream.java" index="5">
+<position info="not_deleted" x="2310" y="0"/>
 </item>
-<item historyLabel="build.xml" index="12">
-<position info="not_deleted" x="1258" y="0"/>
+<item historyLabel="GTPFileFormat.java" index="6">
+<position info="not_deleted" x="540" y="10"/>
 </item>
-<item active="true" historyLabel="build.xml" index="13">
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="TGFileFormatManager.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TGFileFormatManager.java" index="7">
+<position info="not_deleted" x="915" y="8"/>
+</item>
+<item historyLabel="GTPFileFormat.java" index="6">
+<position info="not_deleted" x="540" y="10"/>
+</item>
+<item historyLabel="GP4InputStream.java" index="5">
+<position info="not_deleted" x="2309" y="0"/>
+</item>
+<item historyLabel="GTPFileFormat.java" index="6">
+<position info="not_deleted" x="537" y="0"/>
+</item>
+<item historyLabel="TGFactory.java" index="8">
+<position info="not_deleted" x="1585" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="TuxGuitar.java" index="9">
+<position info="not_deleted" x="14127" y="181"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="TGFactoryImpl.java" index="10">
+<position info="not_deleted" x="593" y="13"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="3449" y="0"/>
+</item>
+<item historyLabel="TGFactory.java" index="8">
+<position info="not_deleted" x="1585" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="129" y="8"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="129" y="8"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="175" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtilsTest.java" index="11">
+<position info="not_deleted" x="32" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2321" y="0"/>
+</item>
+<item historyLabel="TabMetaData.java" index="12">
+<position info="not_deleted" x="1359" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2321" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2437" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2454" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2318" y="0"/>
+</item>
+<item historyLabel="GuitarTabUtils.java" index="1">
+<position info="not_deleted" x="2193" y="0"/>
+</item>
+<item active="true" historyLabel="ASCIIOutputStream.java" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -579,6 +609,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ASCIIOutputStream.java" tooltip="TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java">
+<persistable path="/TuxGuitar-ascii/src/org/herac/tuxguitar/io/ascii/ASCIIOutputStream.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuitarTabUtilsTest.java" tooltip="guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java">
+<persistable path="/guitar-tab-utils/test/src/com/kirkley/guitar/tab/GuitarTabUtilsTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSongManager.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/managers/TGSongManager.java">
+<persistable path="/TuxGuitar/src/org/herac/tuxguitar/song/managers/TGSongManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGFactoryImpl.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java">
+<persistable path="/TuxGuitar/src/org/herac/tuxguitar/gui/editors/tab/TGFactoryImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TuxGuitar.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java">
+<persistable path="/TuxGuitar/src/org/herac/tuxguitar/gui/TuxGuitar.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGFactory.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java">
+<persistable path="/TuxGuitar/src/org/herac/tuxguitar/song/factory/TGFactory.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSongLoader.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java">
+<persistable path="/TuxGuitar/src/org/herac/tuxguitar/io/base/TGSongLoader.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuitarTab.java" tooltip="guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java">
+<persistable path="/guitar-tab-utils/src/com/kirkley/guitar/tab/GuitarTab.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ant.ui.internal.editor.AntEditor" name="build.xml" tooltip="TuxGuitar-ptb/build.xml">
 <persistable path="/TuxGuitar-ptb/build.xml"/>
 </file>
@@ -599,27 +653,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GTPInputStream.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java">
 <persistable path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPInputStream.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GP4InputStream.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java">
-<persistable path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GP4InputStream.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GTPSettingsUtil.java" tooltip="TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPSettingsUtil.java">
-<persistable path="/TuxGuitar-gtp/src/org/herac/tuxguitar/io/gtp/GTPSettingsUtil.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGInputStreamPlugin.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGInputStreamPlugin.java">
-<persistable path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGInputStreamPlugin.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="PTInputStreamPlugin.class" tooltip="org.herac.tuxguitar.io.ptb.PTInputStreamPlugin">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TuxGuitar/share\/plugins\/tuxguitar-ptb.jar&lt;org.herac.tuxguitar.io.ptb(PTInputStreamPlugin.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGPluginManager.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/TGPluginManager.java">
-<persistable path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/TGPluginManager.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGPluginList.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java">
-<persistable path="/TuxGuitar/src/org/herac/tuxguitar/gui/system/plugins/base/TGPluginList.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TGSong.java" tooltip="TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java">
-<persistable path="/TuxGuitar/src/org/herac/tuxguitar/song/models/TGSong.java"/>
 </file>
 </mruList>
 </workbench>

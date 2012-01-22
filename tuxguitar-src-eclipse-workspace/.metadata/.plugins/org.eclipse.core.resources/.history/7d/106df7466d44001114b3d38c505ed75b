@@ -1,0 +1,11 @@
+package com.kirkley.guitar.tab;
+
+import java.io.File;
+
+import junit.framework.TestCase;
+
+public class GuitarTabUtilsTest extends TestCase {
+   public void testReadTabMetaData() {
+	   File f = new File("./test.gp5");
+   }
+}

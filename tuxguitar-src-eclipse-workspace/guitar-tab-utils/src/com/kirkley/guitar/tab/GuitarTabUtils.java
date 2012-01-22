@@ -5,10 +5,12 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
 import org.herac.tuxguitar.gui.TuxGuitar;
+import org.herac.tuxguitar.gui.editors.tab.TGFactoryImpl;
 import org.herac.tuxguitar.gui.util.MessageDialog;
 import org.herac.tuxguitar.io.base.TGFileFormatException;
 import org.herac.tuxguitar.io.base.TGFileFormatManager;
@@ -20,6 +22,8 @@ import org.herac.tuxguitar.io.gtp.GP4InputStream;
 import org.herac.tuxguitar.io.gtp.GP5InputStream;
 import org.herac.tuxguitar.io.gtp.GTPSettingsUtil;
 import org.herac.tuxguitar.io.ptb.PTInputStream;
+import org.herac.tuxguitar.song.factory.TGFactory;
+import org.herac.tuxguitar.song.managers.TGSongManager;
 import org.herac.tuxguitar.song.models.TGSong;
 
 public class GuitarTabUtils {
@@ -28,6 +32,8 @@ public class GuitarTabUtils {
 	
     private static TGFileFormatManager fileFormatManager = TGFileFormatManager.instance();
 	
+    private static TGSongManager songManager;
+    
 	static {
 		/*
 		 * Init all the file formats
@@ -49,37 +55,45 @@ public class GuitarTabUtils {
 		
 	}
 	
-	public static void main(String[] args) {
-		try {
-			InputStream stream = new File("/home/matt/test.gp3").toURI().toURL().openStream();
-			TGSong song = TGFileFormatManager.instance().getLoader().load(TuxGuitar.instance().getSongManager().getFactory(),stream);
-			System.out.println(new TabMetaData(song));
-		}catch (Throwable throwable) {
-			new TGFileFormatException(TuxGuitar.getProperty("file.open.error", new String[]{"url"}),throwable);
-		}
-	}
-	
-	public static TabMetaData readTabMetaData(File tab) throws FileNotFoundException {
+	public static TabMetaData readTabMetaData(File tab) throws IOException {
 		return readTabMetaData(new FileInputStream(tab));
 	}
 	
-	public static TabMetaData readTabMetaData(InputStream stream) {
-		return null;
-		
+	public static TabMetaData readTabMetaData(InputStream stream) throws IOException {
+	    return readTab(stream).getTabMetaData();
 	}
 	
+	public static GuitarTab readTab(File tab) throws IOException{
+		try {
+			return readTab(new FileInputStream(tab));
+		} catch (Exception e) {
+			throw new IOException("Unable the read file: "+ tab == null ? "null" : tab.getAbsolutePath(),e);
+		}
+	}
 	
+	public static GuitarTab readTab(InputStream stream) throws IOException{
+	    try{
+    		GuitarTab song = (GuitarTab)TGFileFormatManager.instance().getLoader().load(getSongManager().getFactory(),stream);  
+    		return song;
+	    } catch (Exception e) {
+	    	throw new IOException("Unable to read tab", e);
+	    } finally {
+	    	try{ stream.close(); } catch(Exception e){}
+	    }
+	}
 	
-//	private static InputStream getInputStream(InputStream in)throws Throwable {
-//		ByteArrayOutputStream out = new ByteArrayOutputStream();
-//		int read = 0;
-//		while((read = in.read()) != -1){
-//			out.write(read);
-//		}
-//		byte[] bytes = out.toByteArray();
-//		in.close();
-//		out.close();
-//		out.flush();
-//		return new ByteArrayInputStream(bytes);
-//	}
+	private static TGSongManager getSongManager() {
+		if(songManager == null){
+			songManager = new TGSongManager(new CustomFactoryImpl());
+			songManager.setSong(songManager.newSong());
+		}
+		return songManager;
+	}
+	
+	private static class CustomFactoryImpl extends TGFactoryImpl {
+		@Override
+		public TGSong newSong() {
+			return new GuitarTab();
+		}
+	}
 }

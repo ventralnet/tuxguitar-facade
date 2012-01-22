@@ -1,0 +1,7 @@
+package com.kirkley.guitar.tab;
+
+import org.herac.tuxguitar.song.models.TGSong;
+
+public class GuitarTab extends TGSong {
+//facade over TGSong
+}
