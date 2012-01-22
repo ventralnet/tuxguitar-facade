@@ -10,10 +10,4 @@ public class GuitarTabUtilsTest extends TestCase {
 	   TabMetaData data = GuitarTabUtils.readTabMetaData(f);
 	   System.out.println (data);
    }
-   
-   public void testExporttoAscii() throws Exception{
-	   File d = new File("./out.txt");
-	   GuitarTab t = GuitarTabUtils.readTab(new File("./test.gp5"));
-	   GuitarTabUtils.exportToAscii(t,d);
-   }
 }

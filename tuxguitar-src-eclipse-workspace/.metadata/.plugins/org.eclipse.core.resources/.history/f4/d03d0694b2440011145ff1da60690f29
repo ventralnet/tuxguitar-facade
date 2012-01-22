@@ -14,6 +14,6 @@ public class GuitarTabUtilsTest extends TestCase {
    public void testExporttoAscii() throws Exception{
 	   File d = new File("./out.txt");
 	   GuitarTab t = GuitarTabUtils.readTab(new File("./test.gp5"));
-	   GuitarTabUtils.exportToAscii(t,d);
+	   
    }
 }

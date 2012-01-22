@@ -7,5 +7,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/TuxGuitar-ptb"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TuxGuitar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TuxGuitar-ascii"/>
+	<classpathentry kind="lib" path="/TuxGuitar/share/plugins/tuxguitar-ascii.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

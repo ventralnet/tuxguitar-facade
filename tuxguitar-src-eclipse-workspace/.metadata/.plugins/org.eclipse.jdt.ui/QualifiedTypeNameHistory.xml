@@ -10,8 +10,12 @@
 <fullyQualifiedTypeName name="org.herac.tuxguitar.io.ptb.PTInputStream"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.herac.tuxguitar.song.factory.TGFactory"/>
-<fullyQualifiedTypeName name="com.kirkley.guitar.tab.GuitarTab"/>
 <fullyQualifiedTypeName name="org.herac.tuxguitar.song.managers.TGSongManager"/>
 <fullyQualifiedTypeName name="com.kirkley.guitar.tab.GuitarTabUtils.CustomFactoryImpl"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="com.kirkley.guitar.tab.GuitarTab"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.kirkley.guitar.tab.GuitarTabUtils"/>
+<fullyQualifiedTypeName name="org.herac.tuxguitar.io.ascii.ASCIISongExporter"/>
 </qualifiedTypeNameHistroy>

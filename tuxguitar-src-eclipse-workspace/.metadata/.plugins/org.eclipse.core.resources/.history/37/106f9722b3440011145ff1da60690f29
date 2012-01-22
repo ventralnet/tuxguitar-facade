@@ -52,7 +52,7 @@ public class GuitarTabUtils {
 	}
 	
 	public static void exportToAscii(GuitarTab tab, File destination) throws FileNotFoundException {
-		ASCIISongExporter exporter = new ASCIISongExporter();
+		ASCIISongExporter exporter = null
 		OutputStream stream = new BufferedOutputStream(new FileOutputStream(destination));
 		exporter.init(new CustomFactoryImpl(), stream);
 		exporter.exportSong(tab);
