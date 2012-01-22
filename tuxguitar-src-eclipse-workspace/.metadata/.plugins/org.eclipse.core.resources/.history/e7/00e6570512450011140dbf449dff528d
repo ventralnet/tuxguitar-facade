@@ -16,8 +16,4 @@ public class GuitarTabUtilsTest extends TestCase {
 	   GuitarTab t = GuitarTabUtils.readTab(new File("./test.gp5"));
 	   GuitarTabUtils.exportToAscii(t,d);
    }
-   
-   public void testExportToAscii_toString() throws Exception {
-	   System.out.println(GuitarTabUtils.exportToAscii(GuitarTabUtils.readTab(new File("./test.gp5"))));
-   }
 }

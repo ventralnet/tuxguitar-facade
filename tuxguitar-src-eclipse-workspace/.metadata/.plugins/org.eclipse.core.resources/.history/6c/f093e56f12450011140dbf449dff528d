@@ -51,7 +51,7 @@ public class GuitarTabUtils {
 		
 	}
 	
-	public static void exportToAscii(GuitarTab tab, File destination) throws IOException {
+	public static void exportToAscii(GuitarTab tab, File destination) throws FileNotFoundException {
 		String textVersion = exportToAscii(tab);
 		BufferedWriter out = new BufferedWriter(new FileWriter(destination));
 		out.write(textVersion);
