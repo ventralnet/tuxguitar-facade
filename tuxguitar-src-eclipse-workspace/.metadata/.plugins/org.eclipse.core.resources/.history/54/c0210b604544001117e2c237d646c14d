@@ -1,9 +1,0 @@
-package com.kirkley.guitar.tab;
-
-public class TGSongToTabMetaDataTransformer {
-
-	public TabMetaData toTabMetaData(TGSong song) {
-		
-	}
-	
-}

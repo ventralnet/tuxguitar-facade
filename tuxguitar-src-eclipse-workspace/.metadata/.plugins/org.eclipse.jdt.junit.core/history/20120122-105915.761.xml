@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="GuitarTabUtilsTest" project="guitar-tab-utils" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.kirkley.guitar.tab.GuitarTabUtilsTest" time="0.505">
-    <testcase name="testReadTabMetaData" classname="com.kirkley.guitar.tab.GuitarTabUtilsTest" time="0.21"/>
-    <testcase name="testExporttoAscii" classname="com.kirkley.guitar.tab.GuitarTabUtilsTest" time="0.186"/>
-    <testcase name="testExportToAscii_toString" classname="com.kirkley.guitar.tab.GuitarTabUtilsTest" time="0.109"/>
-  </testsuite>
-</testrun>
