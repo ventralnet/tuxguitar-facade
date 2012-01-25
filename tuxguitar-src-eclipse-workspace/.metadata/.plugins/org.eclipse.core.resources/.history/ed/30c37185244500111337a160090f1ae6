@@ -65,11 +65,9 @@ public class GuitarTabUtils {
 	public static String exportToAscii(GuitarTab tab) {
 		ASCIISongExporter exporter = new ASCIISongExporter();
 		ByteArrayOutputStream stream = new ByteArrayOutputStream();
-		try{
 		exporter.init(new CustomFactoryImpl(),stream);
 		exporter.exportSong(tab);
 		return new String(stream.toByteArray());
-		} finally { try{stream.close();}catch(Exception e) {} }
 	}
 	
 	public static TabMetaData readTabMetaData(File tab) throws IOException {

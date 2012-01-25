@@ -6,7 +6,6 @@ INDEX VERSION 1.126+/home/matt/development/tuxguitar-facade/tuxguitar-src-eclips
 3053179727.index
 771057606.index
 124411558.index
-2739474727.index
 2132796164.index
 2013154409.index
 629999346.index
