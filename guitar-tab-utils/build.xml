@@ -1,0 +1,27 @@
+<project default="jar">
+
+   <target name="clean">
+      <delete dir="target"/>
+      <delete dir="build"/>
+   </target>
+
+   <target name="compile" depends="clean">
+      <mkdir dir="build/classes"/>
+      <javac srcdir="src/main/java" destdir="build/classes">
+        <classpath>
+          <pathelement location="lib/tuxguitar-ptb.jar"/>
+          <pathelement location="lib/tuxguitar.jar"/>
+          <pathelement location="lib/tuxguitar-gtp.jar"/>
+          <pathelement location="lib/tuxguitar-ascii.jar"/>
+          <pathelement location="lib/swt.jar"/>
+        </classpath>
+      </javac>
+   </target>
+
+   <target name="jar" depends="compile">
+        <mkdir dir="target"/>
+        <jar destfile="target/guitartab-utils.jar" basedir="build/classes">
+        </jar>
+    </target>
+  
+</project>
