@@ -1,7 +1,0 @@
-package com.kirkley.guitar.tab;
-
-import junit.framework.TestCase;
-
-public class GuitarTabUtilsTest extends TestCase {
-
-}
