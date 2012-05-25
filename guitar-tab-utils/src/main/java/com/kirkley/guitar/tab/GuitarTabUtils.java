@@ -84,7 +84,8 @@ public class GuitarTabUtils {
 		try {
 			return readTab(new FileInputStream(tab));
 		} catch (Exception e) {
-			throw new IOException("Unable the read file: "+ tab == null ? "null" : tab.getAbsolutePath(),e);
+			throw new IOException("Unable the read file: "
+                           + tab == null ? "null" : tab.getAbsolutePath(),e);
 		}
 	}
 	
