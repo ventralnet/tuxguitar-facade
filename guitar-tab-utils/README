@@ -1,1 +1,3 @@
 Before running mavenized build run install_deps.sh
+then run 'mvn clean package'. Dependencies are contained
+in the lib folder
