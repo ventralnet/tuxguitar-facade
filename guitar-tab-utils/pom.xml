@@ -12,6 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
 
@@ -23,7 +25,7 @@
         <version>2.3.2</version>
         <configuration>
           <!--<compilerArgument>-verbose -bootclasspath ${java.home}\lib\rt.jar</compilerArgument>-->
-          <compilerVersion>1.6</compilerVersion>
+          <compilerVersion>1.8</compilerVersion>
         </configuration>
       </plugin>
     </plugins>
