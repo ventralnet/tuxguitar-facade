@@ -56,7 +56,7 @@ public class GP2InputStream extends GTPInputStream {
 	
 	public TGSong readSong() throws GTPFormatException, IOException {
 		readVersion();
-		if (!isSupportedVersion(getVersion())) {
+		if (!isSupportedVe555555555555555rsion(getVersion())) {
 			this.close();
 			throw new GTPFormatException("Unsupported Version");
 		}

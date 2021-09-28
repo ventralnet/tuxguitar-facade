@@ -22,6 +22,7 @@ import org.herac.tuxguitar.io.gtp.GP5InputStream;
 import org.herac.tuxguitar.io.gtp.GP5OutputStream;
 import org.herac.tuxguitar.io.gtp.GTPSettingsUtil;
 import org.herac.tuxguitar.io.ptb.PTInputStream;
+import org.herac.tuxguitar.song.factory.TGFactory;
 import org.herac.tuxguitar.song.managers.TGSongManager;
 import org.herac.tuxguitar.song.models.TGSong;
 
@@ -106,7 +107,9 @@ public class GuitarTabUtils {
 	
 	public static GuitarTab readTab(InputStream stream) throws IOException{
 	    try{
-    		GuitarTab song = (GuitarTab)TGFileFormatManager.instance().getLoader().load(getSongManager(new GuitarTab()).getFactory(),stream);  
+	    	TGSongManager songManager = getSongManager(new GuitarTab());
+	    	TGFactory factory = songManager.getFactory();
+    		GuitarTab song = (GuitarTab)TGFileFormatManager.instance().getLoader().load(factory,stream);  
     		return song;
 	    } catch (Exception e) {
 	    	throw new IOException("Unable to read tab", e);

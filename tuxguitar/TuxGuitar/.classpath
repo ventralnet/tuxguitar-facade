@@ -2,9 +2,13 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="share"/>
-	<classpathentry exported="true" kind="lib" path="share/plugins/tuxguitar-gtp.jar" sourcepath="/TuxGuitar-gtp"/>
-	<classpathentry exported="true" kind="lib" path="share/plugins/tuxguitar-ptb.jar" sourcepath="/TuxGuitar-ptb"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/swt-linux-64.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="share/plugins/tuxguitar-gtp.jar" sourcepath="/TuxGuitar-gtp"/>
+	<classpathentry kind="lib" path="share/plugins/tuxguitar-ptb.jar" sourcepath="/TuxGuitar-ptb"/>
+	<classpathentry kind="lib" path="C:/temp/org.eclipse.swt.win32.win32.x86_64_3.117.0.v20210906-0842.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
